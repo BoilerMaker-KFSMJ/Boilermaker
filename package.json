@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/BoilerMaker-KFSMJ/Boilermaker/issues"
   },
-  "homepage": "https://github.com/BoilerMaker-KFSMJ/Boilermaker#readme"
+  "homepage": "https://github.com/BoilerMaker-KFSMJ/Boilermaker#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "react-router": "^4.1.2",
+    "volleyball": "^1.4.1"
+  }
 }
