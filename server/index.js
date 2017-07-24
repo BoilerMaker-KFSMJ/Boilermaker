@@ -1,4 +1,6 @@
-const app = require('express')();
+const express = require('express');
+const app = express();
+const path = require('path');
 const volleyball = require('volleyball');
 const bodyParser = require('body-parser');
 
@@ -19,9 +21,9 @@ app.use((err, req, res, next) => {
   console.error(err);
   console.error(err.stack);
   res.status(err.status || 500).send(err.message || 'Internal server error');
-})
+});
 
 
 app.listen(3000, () => {
-  console.log('Your server IT'S ALIVE. On port 3000');
-})
+  console.log('Your server. IT\'S ALIVE. On port 3000');
+});
